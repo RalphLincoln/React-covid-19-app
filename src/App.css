@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* THIS IS FOR THE NAVBAR HOVER STATE */
+.links:hover {
+  color: #2be4fd !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* THIS IS PADDING FOR THE DASHBOARD 1  */
+.pad {
+  padding-top: 60px;
+}
+
+body {
+  position: relative;
+}
+
+a {
+  color: #6c757d !important;
+}
+
+/* THIS CSS IS FOR THE SCROLL BAR */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6C7585;
+}
+
+/* ########################### */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .pad {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .footerCenter {
+    text-align: center;
+  }
+
+  .cardpad {
+    padding-top: 30px;
+  }
+
+  table {
+    max-width: 40%;
+  }
+
+  .footerWidth {
+    width: 100%;
+  }
+
+  .marg {
+    margin-top: 70px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  /* For general iPad layouts */
+  .doon {
+    display: block;
   }
 }
