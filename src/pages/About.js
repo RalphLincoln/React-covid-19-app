@@ -10,10 +10,11 @@ export default function About() {
                 <div className="row">
                     <div data-aos="zoom-out-down" className="col-md-7 mt-4">
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis reiciendis iste repellendus eius sed doloribus expedita architecto, a, ad quos est ab minima nisi? Eaque earum odit dolor tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum velit consectetur nulla recusandae optio iusto possimus obcaecati, odio, illo dolorum ab dicta minus qui fuga harum. Itaque maxime delectus excepturi!
+                            We are ensuring provision of adequate, relevant, reliable and relatable information about COVID-19, debunking fake news and providing safety, health and precautionary tips that could help people stay safe, informed and protected.
                         </p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis excepturi a ipsam explicabo eum, sequi voluptate quidem atque. Fugiat minus error mollitia vel est ut, exercitationem incidunt quas porro quibusdam.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae dolor minus iusto rerum quis assumenda. Maxime ex perferendis, eveniet officia eius tempora, cumque sit pariatur, animi molestiae illum perspiciatis temporibus!</p>
+                        <p>
+                            We gather data on cases, perceptions, emotions and other relevant variables on the Coronavirus. We have a database of information that is helping researchers and scholars during and after this outbreak.
+                        </p>
                     </div>
                     <div data-aos="zoom-out-down" className="col-md-5">
                         <img src={Image} style={{ borderRadius: '150px 10px 150px 15px' }} className='img-fluid' alt="" />
